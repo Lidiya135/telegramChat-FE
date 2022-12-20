@@ -1,0 +1,27 @@
+.login {
+    width: 360px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+  }
+  .blue {
+    background-color: #7e98df;
+    color: white;
+  }
+  .white {
+    background-color: white;
+    color: #7e98df;
+    border: 1px solid#7e98df;
+  }
+  .menu {
+    width: 150px;
+    background-color: #7e98df;
+    color: white;
+    border: 0;
+    text-align: start;
+  }
+  .editProf {
+    border: none;
+    color: #7e98df;
+    background-color: white;
+  }
