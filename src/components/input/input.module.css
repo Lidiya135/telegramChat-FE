@@ -1,32 +1,27 @@
-.containerInput{
-    display: flex;
-    flex-direction: column;
-}
 .input {
-    display: flex;
-    flex-direction: column;
-  }
-  .inputLogin {
-    width: 360px;
-    border: 0;
-    outline: 0;
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    /* background-color: aqua; */
-  }
-  .mesage {
-    border: none;
-    padding: 20px;
-    width: 300px;
-    height: 40px;
-    border-radius: 10px;
-  }
-  .inputProf {
-    border: none;
-    text-align: center;
-  }
-  .inputData {
-    border: none;
-    width: 300px;
-  }
+  display: flex;
+  flex-direction: column;
+}
+.inputLogin {
+  width: 360px;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.mesage {
+  border: none;
+  padding: 20px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}
+.inputProf {
+  border: none;
+  text-align: center;
+}
+.inputData {
+  border: none;
+  width: 300px;
+}

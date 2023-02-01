@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { registerUser } from '../../redux/action/register'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import styles from "./register.module.css";
 import Input from "../../components/input";
@@ -9,7 +9,7 @@ import Button from "../../components/button";
 export default function Register() {
   const [email,setEmail] = useState("")
   const [password,setPassword] = useState("")
-  const [fullname,setFullname] = useState("")
+  const [username,setUsername] = useState("")
 
   const navigate = useNavigate()
   const dispatch = useDispatch()
@@ -18,9 +18,9 @@ export default function Register() {
     e.preventDefault()
     console.log(email)
     console.log(password)
-    console.log(fullname)
+    console.log(username)
     let data = {
-      email,password,fullname
+      email,password,username
     }
     dispatch(registerUser(data,navigate))
   }
@@ -36,7 +36,7 @@ export default function Register() {
       </div>
       <form onSubmit={postData}>
         <div>
-          <Input label="Name" type="text" name="name" className="inputLogin" placeholder="Telegram app" value={fullname} onChange={(e)=>setFullname(e.target.value)} />
+          <Input label="Name" type="text" name="username" className="inputLogin" placeholder="Telegram app" value={username} onChange={(e)=>setUsername(e.target.value)} />
         </div>
         <div>
           <Input label="Email" type="email" name="email" className="inputLogin" placeholder="telegram@gmail.com"  value={email} onChange={(e)=>setEmail(e.target.value)} />
@@ -44,6 +44,10 @@ export default function Register() {
         <div>
           <Input label="Password" type="password" name="password" className="inputLogin" placeholder="Password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
         </div>
+        <div className={styles.forgot}>
+        Do you have an account?  
+            <Link to="/login"> Login</Link>
+          </div>
         <div className={styles.butonlogin}>
           <Button type="submit" title="Register" btn="login" color="blue" onClick="" />
         </div>

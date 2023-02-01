@@ -1,47 +1,46 @@
-.pagechat {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: white;
-  }
-  .contact {
-    padding-top: 30px;
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  @media only screen and (min-width: 360px) {
-    .contact {
-      width: 30%;
-    }
-  }
-  .chat{
-    background-color: aliceblue;
-    text-align: center;
-    width: 100%;
-    padding-top: 30px;
-  }
-  .chat input{
-    width: 80%;
-    height: 30px;
-  }
-  .chat button{
-    width: 15%;
-    height: 30px;
-    margin-left: 10px;
-  }
-  .chat p{
-    /* background-color: grey; */
-    width: auto;
-    text-align: left;
-    margin-left: 10px;
-    border-radius: 5px;
-  }
-  .text{
-    /* background-color: blanchedalmond; */
-    width: 50%;
-  }
+.private {
+  display: flex;
+  width: 100vw;
+  /* background-color: #21796d; */
+  padding: 10px 24px;
+  gap: 50px;
+}
+.myprofile{
+  text-align: center;
+  /* background-color: rgb(227, 240, 240); */
+}
+.myprofile img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.search {
+  display: flex;
+  /* background-color: aqua; */
+  align-items: center;
+  margin-top: 10px;
+  gap: 30px;
+}
+.message{
+  /* background-color: bisque; */
+  width: 100%;
+}
+.name {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.overflow { 
+  width: 100%;
+  height: 460px;
+  background-color: #fafafa;
+  /* background-color: aqua; */
+  padding: 10px;
+  overflow-y: scroll;
+}
+.overfloww {
+  width: 100%;
+  height: 270px;
+  padding: 10px;
+  overflow-y: scroll;
+}

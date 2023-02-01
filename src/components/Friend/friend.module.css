@@ -1,0 +1,49 @@
+/* .detail {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 350px;
+  background-color: white;
+  margin-left: -350px;
+  align-items: center;
+  gap: 20px;
+  z-index: 2;
+} */
+.detail{
+  /* background-color: aqua; */
+  width: 350px;
+  text-align: center;
+}
+.backemail {
+  gap: 80px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.imgProfile {
+  width: 80px;
+  height: 80px;
+  /* border: 1px solid black; */
+  border-radius: 30px;
+  margin: 0 auto;
+  }
+.imgProfile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.identity {
+  display: flex;
+  justify-content: flex-end;
+  gap: 110px;
+  margin-top: 10px;
+}
+.phone {
+  margin-bottom: 10px;
+}
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}

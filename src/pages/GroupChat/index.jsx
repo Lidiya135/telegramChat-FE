@@ -13,7 +13,7 @@ function GroupChat() {
   const [name, setName] = useState("guest")
  
   useEffect(()=>{
-    const resultSocket = io("http://localhost:4000")
+    const resultSocket = io("http://localhost:4001")
     setSocket(resultSocket)
   },[])
 
