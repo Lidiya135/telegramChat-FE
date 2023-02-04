@@ -92,8 +92,6 @@ npm install
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ## Screenshoots
 
 | Register Page | 
@@ -119,6 +117,8 @@ npm install
 | Menu Page | 
 | ------------- |
 | ![Menu](https://github.com/Lidiya135/telegramChat-FE/blob/main/public/ss/menu.jpg  "Menu Page") |
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contributing
 
